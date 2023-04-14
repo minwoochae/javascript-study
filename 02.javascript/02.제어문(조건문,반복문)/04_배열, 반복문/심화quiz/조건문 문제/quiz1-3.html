@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz1-3.html</title>
+</head>
+<body>
+    <script>
+        var num1 = prompt('학년 입력.',0 )
+        var num2 = prompt('점수 입력.',0 )
+        var num3 = ('에러입니다')
+
+      if(0 <= num2 && num2 <= 100){
+
+      if ( num1 == 4 && num2 >=70 ){
+         num3 = '합격';
+      } else if ((num1 < 4 || num1 > 4)  && num2 >= 60) {
+         num3 = '합격'
+      } else {
+         num3 = '불합격'
+      } 
+      console.log(num3);}
+      else{
+        alert(num3)
+      }
+
+
+      
+    </script>
+</body>
+</html>

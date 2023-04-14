@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz2-3.html</title>
+</head>
+<body>
+    <script>
+         var num1 = prompt("숫자 입력",0);
+         var num2 = prompt("숫자 입력",0);
+         var num3 = prompt("숫자 입력",0);
+         var num =Number(num1) + Number(num2)+ Number(num3);
+         var gvr =  num/3
+        
+         var max =num1
+         var min =num1
+
+         if (max < num2) max = num2;
+         if (max < num3) max = num3;
+
+         if (min > num2) min =num2;
+         if (min > num3) min =num3;
+         
+         var  msg = "최댓값 " + max + "최소값" + min + 
+         "합계" + num + "평균값" + gvr;
+
+         alert(msg);
+    </script>
+</body>
+</html>
